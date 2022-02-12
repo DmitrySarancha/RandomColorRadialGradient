@@ -1,7 +1,7 @@
-# These are my projects using vanilla JS
+# This is my vanilla JS project
 
-| My project | Name                | Wiew            |
-| ---------- | ------------------- | --------------- |
-| 1          | RandomColorGradient | [RandomColor]() |
-|            |                     |                 |
-|            |                     |                 |
+| My project | Name                | Wiew                                                                 |
+| ---------- | ------------------- | -------------------------------------------------------------------- |
+| 1          | RandomColorGradient | [RandomColor](https://dmitrysarancha.github.io/RandomColorGradient/) |
+|            |                     |                                                                      |
+|            |                     |                                                                      |
