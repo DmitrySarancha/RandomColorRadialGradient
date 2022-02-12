@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+body {
+    display: grid;
+    place-items: center;
+    block-size: 100vh;
+    background: #2a3dfe;
+    background: -webkit-radial-gradient(bottom left, #2a3dfe, #d2e77c);
+    background: -moz-radial-gradient(bottom left, #2a3dfe, #d2e77c);
+    background: radial-gradient(to top right, #2a3dfe, #d2e77c);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    inline-size: 70%;
+}
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    inline-size: 250px;
+    padding: 1rem 1rem;
+    border: 4px solid #7f638f;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #000;
+    background: #d2e77c;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+.value {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr);
+    grid-auto-rows: auto;
+    place-items: center;
+    inline-size: 100%;
+    margin-block-start: 2rem;
+}
+.value span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 1.2em;
+    border: 3px solid #7f638f;
+    background: rgba(0, 0, 0, 0.151);
+
+    border-radius: 25px;
+    inline-size: 100%;
+    block-size: 100%;
+}
